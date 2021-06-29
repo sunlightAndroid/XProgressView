@@ -1,4 +1,7 @@
-# XProgressView [![](https://jitpack.io/v/sunlightAndroid/XProgressView-master.svg)](https://jitpack.io/#sunlightAndroid/XProgressView-master)
+# XProgressView [![](https://jitpack.io/v/sunlightAndroid/XProgressView.svg)](https://jitpack.io/#sunlightAndroid/XProgressView)
+
+
+
 
 
 ### 可设置斜线的进度条
@@ -20,7 +23,7 @@ allprojects {
 
 ```
 	dependencies {
-	        implementation 'com.github.sunlightAndroid:XProgressView-master:Tag'
+	        implementation 'com.github.sunlightAndroid:XProgressView-master:1.0.0'
 	}
 ```
 
