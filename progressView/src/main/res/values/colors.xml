@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="background">#FB0653</color>
-    <color name="progress">#01223C</color>
+    <color name="background">#ff5657</color>
+    <color name="progress">#5a5cff</color>
 </resources>
