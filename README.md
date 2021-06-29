@@ -23,7 +23,7 @@ allprojects {
 
 ```
 	dependencies {
-	        implementation 'com.github.sunlightAndroid:XProgressView-master:1.0.0'
+	        implementation 'com.github.sunlightAndroid:XProgressView:1.0.0'
 	}
 ```
 
