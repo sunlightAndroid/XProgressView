@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <me.eric.progress.XProgressView
+        android:id="@+id/XProgressView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:animation_enabled="false"
+        app:background_color="@color/background"
+        app:c_progress="0.8"
+        app:progress_color="@color/progress"
+        app:progress_style="SLASH" />
+
+
+    <me.eric.progress.XProgressView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        app:animation_enabled="true"
+        app:background_color="@color/background"
+        app:c_progress="0.6"
+        app:progress_color="@color/progress"
+        app:progress_style="DEFAULT" />
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:text="0.5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_progress"
+        android:text="设置" />
+
+
+
+</LinearLayout>

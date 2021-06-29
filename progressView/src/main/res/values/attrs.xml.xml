@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="XProgressView">
+        <attr name="c_progress" format="float" />
+        <attr name="background_color" format="color" />
+        <attr name="progress_color" format="color" />
+        <attr name="animation_enabled" format="boolean" />
+        <attr name="progress_style" format="enum">
+            <enum name="DEFAULT" value="1" />
+            <enum name="SLASH" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

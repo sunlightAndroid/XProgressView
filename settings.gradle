@@ -1,0 +1,3 @@
+include ':progressView'
+include ':app'
+rootProject.name = "XProgressView"
